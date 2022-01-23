@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>AirAsia</title>
     <link rel="shortcut icon" href="/img/airasia-logo.svg" type="image/svg" />
-    <!-- <link rel="stylesheet" href="/main.css" /> -->
   </head>
   <body>
     <div class="wrapper">
@@ -19,11 +18,6 @@
               <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
               <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
             </ul>
-            <!-- <ul class="menu__list-active">
-              <li class="menu_item-active">
-                <a href="#" class="menu__link-active">link-active</a>
-              </li>
-            </ul> -->
           </nav>
           <address class="contacts">
             <a href="tel:+88007003030" class="contacts__phone">8 800 700 30 30</a>
@@ -31,7 +25,6 @@
           </address>
         </div>
       </header>
-      <!-- <div class="page_content"> -->
       <main class="maincontent">
         <section class="hello">
           <div class="container">
@@ -61,7 +54,7 @@
                   <p class="offers__text">
                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                   </p>
-                  <a href="" class="button button_light">Смотреть</a>
+                  <a href="" class="button button--light">Смотреть</a>
                 </div>
               </li>
               <li class="offers__item">
@@ -81,7 +74,7 @@
                   <p class="offers__text">
                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                   </p>
-                  <a href="" class="button button_light">Смотреть</a>
+                  <a href="" class="button button--light">Смотреть</a>
                 </div>
               </li>
               <li class="offers__item">
@@ -101,7 +94,7 @@
                   <p class="offers__text">
                     Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                   </p>
-                  <a href="" class="button button_light">Смотреть</a>
+                  <a href="" class="button button--light">Смотреть</a>
                 </div>
               </li>
             </ul>
@@ -109,41 +102,47 @@
         </section>
         <section class="news">
           <div class="container">
-            <h2 class="title__news">Новости и акции</h2>
-            <ul class="news__features">
-              <img src="https://" alt="news1 img" class="news__feature-img">
-              <date class="news news--date">Декабрь 2019</date>
-              <h3 class="news__feature-title">Дешевые путевки на Новый Год!</h3>
-              <p class="news__feature-text">Проведи новый год в Тайланде</p>
+            <h2 class="title">Новости и акции</h2>
+            <ul class="news__list">
+              <img src="https://" alt="news1 img" class="news__item-img">
+              <li class="news__item">
+                <div class="news__info">
+                  <date class="news__item-date">Декабрь 2019</date>
+                  <h3 class="news__item-title">Дешевые путевки на Новый Год!</h3>
+                  <p class="news__item-text">Проведи новый год в Тайланде</p>
+                </div>
+              </li>
             </ul>
-            <ul class="news__features">
-              <img src="https://" alt="news2 img" class="news__feature-img">
-              <date class="news news--date">Декабрь 2019</date>
-              <h3 class="news__feature-title">Акция для серфенгистов!</h3>
-              <p class="news__feature-text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+            <ul class="news__list">
+              <img src="https://" alt="news2 img" class="news__item2-img">
+              <li class="news__item">
+                <div class="news__info">
+                  <date class="news__item-date">Декабрь 2019</date>
+                  <h3 class="news__item-title">Акция для серфенгистов!</h3>
+                  <p class="news__item-text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+                </div>
+              </li>
             </ul>
-            <div class="paginator">
-              <div class="paginator__display">Страница 1 из 7</div>
-              <ul class="paginator__list">
-                <li class="paginator__item"><a class="paginator__page-link" href="#">1</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">2</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">3</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">4</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">5</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">6</a></li>
-                <li class="paginator__item"><a class="paginator__page-link" href="#">7</a></li>
+            <div class="pagination">
+              <div class="pagination__display">Страница 1 из 7</div>
+              <ul class="pagination__list">
+                <li class="pagination__item"><a class="pagination__page" href="#">1</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">2</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">3</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">4</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">5</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">6</a></li>
+                <li class="pagination__item"><a class="pagination__page" href="#">7</a></li>
               </ul>
             </div>
           </div>
         </section>
         <section class="about">
           <div class="container">
-            <div class="about__item">
-              <img src="https://" alt="about img1" class="about__item-img">
-            </div>
+              <img src="https://" alt="about img1" class="about__img">
             <div class="about__item">
               <img src="https://" alt="about img2" class="about__item-img">
-              <h2 class="title title--about">О нас</h2>
+              <h2 class="title title--dark">О нас</h2>
               <p class="about__text">
                 Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
               </p>
@@ -163,7 +162,7 @@
                 <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
               </ul>
             </nav>
-              <ul class="socials__list">
+              <ul class="socials">
                 <li class="socials__item"><a href="" class="socials__link">Telegram</a></li>
                 <li class="socials__item"><a href="" class="socials__link">VK</a></li>
                 <li class="socials__item"><a href="" class="socials__link">Facebook</a></li>
@@ -176,7 +175,6 @@
           </div>
         </footer>
       </main>
-      <!-- </div123> -->
     </div>
   </body>
 </html>
