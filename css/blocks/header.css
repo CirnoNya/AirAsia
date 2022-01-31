@@ -52,6 +52,7 @@
   margin-top: 29px;
   right: 0;
   text-align: right;
+  cursor: pointer;
 }
 
 .contacts__phone {
