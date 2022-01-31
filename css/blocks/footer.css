@@ -10,6 +10,7 @@
 .contacts__info {
   color: #9A9A9A;
   font-size: 11px;
+  cursor: pointer;
 }
 
 .socials {
