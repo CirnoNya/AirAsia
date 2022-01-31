@@ -1,10 +1,8 @@
-.footer {
+.footer__container {
+  border-top: 1px solid #192f37;
   height: 93px;
   position: relative;
   margin-bottom: 45px;
-}
-.footer__container {
-  border-top: 1px solid #192f37;
 }
 
 .contacts__info {
@@ -21,10 +19,11 @@
   position: absolute;
   margin-bottom: 61px;
   margin-top: 33px;
-  right: 283px;
+  right: 250px;
 }
 
 .socials__item {
+  margin-right: 10px;
   display: inline-block;
 }
 
