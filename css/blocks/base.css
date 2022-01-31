@@ -1,6 +1,8 @@
 html {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif; 
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body, 
@@ -9,8 +11,10 @@ html {
 }
 
 body {
+  background: #001821;
   color: #fff;
   margin: 0;
+  line-height: 1.42;
 }
 
 button {
@@ -22,9 +26,12 @@ button {
   box-sizing: border-box;
 }
 
-ul{
+ul {
   padding: 0;
   margin: 0;
+}
+
+ul li {
   list-style: none;
 }
 
@@ -39,6 +46,7 @@ h6 {
 }
 
 p {
+  margin-top: 0;
   margin: 0;
   padding: 0;
 }
@@ -55,36 +63,13 @@ img {
   max-height: 100%;
 }
 
-.logo, .menu, .menu__item{
-  display: inline-block;
-}
-
-.logo, .menu, .contacts{
-  position: absolute;
-}
-
-.logo {
-  margin-right: 79px;
-  left: 0;
-}
-
-.menu {
-  left: 165px;
-  top: 50%;
-  transform: translate(0%, -50%);
-}
-
-.contacts {
-  right: 0;
-}
-
 .wrapper {
   overflow: hidden;
   min-height: 100%;
 }
 
 .wrapper--main {
-  background: url(../../img/bg-1.png);
+  background: url("../../img/bg-1.png");
   background-repeat: no-repeat;
 }
 
@@ -126,6 +111,7 @@ img {
   background: transparent;
   color: #DA0100;
   border: 1px solid;
+  max-width: 135px;
 }
 
 .button--light:hover {
@@ -139,13 +125,13 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 49px;
+  line-height: 1.1;
   color: #fff;
-  margin-bottom: 51px;
 }
 
 .title--fire {
   position: relative;
+  margin-bottom: 57px;
 }
 
 .title--fire:after {
@@ -164,7 +150,3 @@ img {
   color: #000;
 }
 
-.title--big {
-  font-size: 48px;
-  margin-bottom: 99px;
-}

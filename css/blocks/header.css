@@ -1,22 +1,87 @@
+.logo .menu, .menu__item{
+  display: inline-block;
+}
+
+.logo, .menu, .contacts{
+  position: absolute;
+}
+
 .header {
-  padding-top: 26px;
-  margin-bottom: 180px;
-  height: 70px;
+  height: 120px;
+  position: relative;
+  margin-bottom: 85px;
 }
 
 .header__container {
   position: relative;
 }
 
+.logo {
+  margin-top: 29px;
+  left: 0;
+  width: 85px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.menu {
+  margin-left: 163px;
+  margin-top: 37px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+
 .menu__item {
-  margin-right: 54px;
+  font-style: normal;
+  font-weight: normal;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+.menu__link {
+  line-height: 16px;
+  font-size: 14px;
 }
 
 .menu__item:last-child {
   margin-right: 0;
 }
 
+.contacts {
+  margin-top: 29px;
+  right: 0;
+  text-align: right;
+}
+
 .contacts__phone {
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 26px;
   font-style: normal;
   font-weight: normal;
+}
+
+.contacts__workhours {
+  color: #98A4A8;
+  font-size: 13px;
+  line-height: 12px;
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.contacts__workhours:hover {
+  color: #fff;
+}
+
+.contacts__info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #fff;
+  text-align: right;
 }
