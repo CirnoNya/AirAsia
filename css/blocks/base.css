@@ -69,7 +69,7 @@ img {
 }
 
 .wrapper--main {
-  background: url("../../img/bg-1.png");
+  background: url("../../img/bg-1.png") center top no-repeat, url("../../img/bg-2.png") right bottom 165px no-repeat;
   background-repeat: no-repeat;
 }
 
