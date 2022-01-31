@@ -13,6 +13,10 @@
   cursor: pointer;
 }
 
+.contacts__info:hover {
+  color: #fff;
+}
+
 .socials {
   position: absolute;
   margin-bottom: 61px;
