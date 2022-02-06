@@ -1,0 +1,42 @@
+.contacts {
+  text-align: right;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.contacts__phone {
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contacts__workhours {
+  color: #98A4A8;
+  font-size: 13px;
+  line-height: 12px;
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.contacts__workhours:hover {
+  color: #fff;
+}
+
+.contacts__info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #9A9A9A;
+  text-align: right;
+  cursor: pointer;
+}
+
+.contacts__info:hover {
+  color: #fff;
+}

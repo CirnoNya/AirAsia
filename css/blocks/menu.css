@@ -1,0 +1,26 @@
+.menu {
+  vertical-align: middle;
+  padding-top: 6px;
+}
+
+
+.menu__item {
+  font-style: normal;
+  font-weight: normal;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+.menu__link {
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu,
+.menu__item {
+  display: inline-block;
+}

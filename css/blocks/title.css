@@ -1,0 +1,31 @@
+.title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #fff;
+  display: flex;
+}
+
+.title--fire {
+  margin-bottom: 57px;
+}
+
+.title--fire:after {
+  content: "";
+  background: url("../../img/flame.png") no-repeat;
+  margin-left: 10px;
+  width: 21px;
+  height: 28px;
+  transform: translate(-50%, -50%);
+}
+
+.title--dark {
+  color: #000;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+  line-height: 42px;
+  color: #000;
+}

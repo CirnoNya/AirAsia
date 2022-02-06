@@ -1,20 +1,17 @@
 .hello__container {
-  margin-bottom: 250px;
+  flex-direction: column;
 }
 
 .hello__title {
-  width: 520px;
+  width: 45%;
   font-size: 72px;
   line-height: 91px;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 
 .hello__text {
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  margin-bottom: 30px;
+  line-height: 20px;
 }
-
-
