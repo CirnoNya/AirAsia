@@ -9,16 +9,18 @@
 }
 
 .title--fire {
-  margin-bottom: 57px;
+  margin-bottom: 46px;
 }
 
 .title--fire:after {
+  display: flex;
   content: "";
   background: url("../../img/flame.png") no-repeat;
-  margin-left: 10px;
+  margin-left: 24px;
   width: 21px;
   height: 28px;
   transform: translate(-50%, -50%);
+  margin-top: 22px;
 }
 
 .title--dark {

@@ -1,4 +1,10 @@
+.news {
+  margin-bottom: 145px;
+}
+
 .news__list {
+  margin-top: 57px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }

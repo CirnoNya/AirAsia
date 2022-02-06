@@ -1,6 +1,10 @@
+.about {
+  margin-bottom: 54px;
+}
+
 .about__container {
-  margin-bottom: 72px;
   display: flex;
+  min-height: 553px;
 }
 
 .about__container:before,
@@ -20,7 +24,7 @@
 .about__block {
   background: url("../../img/mountains.png") center center / cover no-repeat;
   position: absolute;
-  padding: 74px 81px;
+  padding: 75px 81px;
   width: 785px;
   height: 455px;
   margin-left: 350px;

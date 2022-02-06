@@ -1,12 +1,13 @@
-.hello__container {
-  flex-direction: column;
+.hello {
+  margin-top: 100px;
 }
 
 .hello__title {
   width: 45%;
   font-size: 72px;
-  line-height: 91px;
+  line-height: 95px;
   font-weight: bold;
+  margin-bottom: 28px;
 }
 
 .hello__text {
@@ -14,4 +15,5 @@
   font-style: normal;
   font-weight: normal;
   line-height: 20px;
+  margin-bottom: 34px;
 }
