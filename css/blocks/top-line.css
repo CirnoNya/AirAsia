@@ -1,0 +1,10 @@
+.top-line {
+  background: url("../../img/services/headline_1.png") right 51% top no-repeat;
+}
+
+.top--line__container {
+  padding-bottom: 20px;
+  display: flex;
+  min-height: 412px;
+  justify-content: space-between;
+}

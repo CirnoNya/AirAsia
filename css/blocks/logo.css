@@ -1,7 +1,12 @@
 .logo {
+  display: flex;
   margin-right: 80px;
-  display: inline-block;
   width: 85px;
   height: 36px;
   vertical-align: middle;
+}
+
+.logo--services {
+  width: 98px;
+  height: 42px;
 }

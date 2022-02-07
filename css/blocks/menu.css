@@ -24,3 +24,7 @@
 .menu__item {
   display: inline-block;
 }
+
+.menu--services {
+  margin-left: 65px;
+}

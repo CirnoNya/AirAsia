@@ -35,3 +35,19 @@
   background: #DA0100 border 1px solid #DA0100;
   color: #fff;
 }
+
+.button--light--wide {
+  background: transparent;
+  color: #DA0100;
+  border: 1px solid;
+  max-width: 168px;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.button--light--wide:hover {
+  background: #DA0100 border 1px solid #DA0100;
+  color: #fff;
+}

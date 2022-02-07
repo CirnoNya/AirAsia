@@ -30,8 +30,35 @@
   line-height: 32px;
 }
 
+.pagination__link:hover {
+  background: #FFFFFF;
+  color: #F5170E;
+  border-radius: 50%;
+}
+
 .pagination__page--active {
   background: #FFFFFF;
   color: #F5170E;
   border-radius: 50%;
+}
+
+.pagination--theme--light {
+  color: #000000;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 26px;
+}
+
+.pagination--theme--light .pagination__title {
+  margin-right: 26px;
+}
+
+.pagination--theme--light .pagination__page--active .pagination__link {
+  color: #FFF;
+  background: #F5170E;
+}
+
+.pagination--theme--light .pagination__link:hover {
+  color: #FFF;
+  background: #F5170E;
 }

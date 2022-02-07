@@ -31,3 +31,10 @@
   line-height: 42px;
   color: #000;
 }
+
+.page-title {
+  margin-bottom: 36px;
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: bold;
+}
