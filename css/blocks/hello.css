@@ -1,5 +1,5 @@
 .hello {
-  margin-top: 100px;
+  margin-top: 128px;
 }
 
 .hello__title {
@@ -7,7 +7,7 @@
   font-size: 72px;
   line-height: 95px;
   font-weight: bold;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
 }
 
 .hello__text {

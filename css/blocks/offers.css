@@ -1,5 +1,5 @@
 .offers {
-  margin-bottom: 131px;
+  margin-bottom: 133px;
 }
 
 .offers__list {
@@ -10,7 +10,7 @@
 .offers__item {
   width: calc(100% / 3 - 16px);
   background: #fff;
-  min-height: 447px;
+  min-height: 449px;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -23,8 +23,8 @@
 
 .offers__content {
   padding: 20px;
-  padding-top: 32px;
-  padding-bottom: 26px;
+  padding-top: 35px;
+  padding-bottom: 24px;
   color: #000;
   flex: 1;
   display: flex;

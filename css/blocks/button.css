@@ -36,7 +36,7 @@
   color: #fff;
 }
 
-.button--light--wide {
+.button--light-wide {
   background: transparent;
   color: #DA0100;
   border: 1px solid;
@@ -47,7 +47,7 @@
   margin-top: auto;
 }
 
-.button--light--wide:hover {
+.button--light-wide:hover {
   background: #DA0100 border 1px solid #DA0100;
   color: #fff;
 }

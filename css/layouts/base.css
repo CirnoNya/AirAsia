@@ -94,7 +94,7 @@ table {
 }
 
 .hero {
-  margin-bottom: 252px
+  margin-bottom: 249px;
 }
 
 .hero__container {
@@ -113,8 +113,4 @@ table {
 .maincontent--services {
   background: #fff;
   color: #303030;
-  padding: 102px 0;
 }
-
-
-

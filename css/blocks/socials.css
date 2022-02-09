@@ -20,34 +20,34 @@
   background: center center no-repeat;
 }
 
-.socials__item--icon--tg {
+.socials__item--tg {
   background-image: url("../../img/ico/tg.svg");
 }
 
-.socials__item--icon--vk {
+.socials__item--vk {
   background-image: url("../../img/ico/vk.svg");
 }
 
-.socials__item--icon--fb {
+.socials__item--fb {
   background-image: url("../../img/ico/fb.svg");
 }
 
-.socials__item--icon--in {
+.socials__item--in {
   background-image: url("../../img/ico/in.svg");
 }
 
-.socials__item--icon--tg:hover {
+.socials__item--tg:hover {
   background-image: url("../../img/ico/tg-active.svg");
 }
 
-.socials__item--icon--vk:hover {
+.socials__item--vk:hover {
   background-image: url("../../img/ico/vk-active.svg");
 }
 
-.socials__item--icon--fb:hover {
+.socials__item--fb:hover {
   background-image: url("../../img/ico/fb-active.svg");
 }
 
-.socials__item--icon--in:hover {
+.socials__item--in:hover {
   background-image: url("../../img/ico/in-active.svg");
 }
