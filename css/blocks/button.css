@@ -13,6 +13,7 @@
   max-width: 168px;
   max-height: 55px;
   display: flex;
+  transition: color, background .3s;
 }
 
 .button:hover {
@@ -48,7 +49,7 @@
 }
 
 .button--light-wide:hover {
-  background: #DA0100 border 1px solid #DA0100;
+  border: 1px solid #DA0100;
   color: #fff;
 }
 

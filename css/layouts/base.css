@@ -70,19 +70,21 @@ table {
 }
 
 input {
+  transition: outline .3s;
   outline: none;
 }
 
 input:focus {
-  border: 1px solid #F5170E;
+  outline: 1px solid #F5170E;
 }
 
 textarea {
+  transition: outline .3s;
   outline: none;
 }
 
 textarea:focus {
-  border: 1px solid #F5170E;
+  outline: 1px solid #F5170E;
 }
 
 .wrapper {
