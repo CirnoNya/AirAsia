@@ -32,7 +32,7 @@
 }
 
 .button--light:hover {
-  background: #DA0100 border 1px solid #DA0100;
+  border: 1px solid #DA0100;
   color: #fff;
 }
 
@@ -66,4 +66,8 @@
 
 .button--submit:hover {
   background: #F5170E;
+}
+
+.button--welcome {
+  padding: 19px 60px;
 }
