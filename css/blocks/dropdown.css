@@ -8,6 +8,7 @@
   text-align: left;
   font-size: 13px;
   line-height: 21px;
+  font-style: normal;
   border-radius: 5px;
   top: calc(100% + 16px);
   transition: opacity .4s;
