@@ -16,6 +16,10 @@
   font-size: 14px;
 }
 
+.menu__link:hover {
+  color: #DA0100;
+}
+
 .menu__item:last-child {
   margin-right: 0;
 }

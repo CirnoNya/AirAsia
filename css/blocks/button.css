@@ -51,3 +51,19 @@
   background: #DA0100 border 1px solid #DA0100;
   color: #fff;
 }
+
+.button--dark {
+  background: #8E8E8E;
+}
+
+.button--dark:hover {
+  background: #2B2B2B;
+}
+
+.button--submit {
+  background: #F5170E;
+}
+
+.button--submit:hover {
+  background: #F5170E;
+}

@@ -1,0 +1,31 @@
+.separator {
+  margin-top: 87px;
+  background: #f4b49b url(../../img/reviews/bg.png) bottom no-repeat;
+  min-height: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  align-items: center;
+  display: flex;
+}
+
+.separator__image {
+  margin-top: 19px;
+  display: flex;
+  width: 487px;
+  height: 341px;
+  background: url(../../img/reviews/couple.svg) bottom no-repeat;
+}
+
+.separator__title {
+  display: flex;
+  max-width: 55%;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-right: 60px;
+}
